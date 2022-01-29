@@ -1,4 +1,4 @@
-Role Name
+Nginx + php-fpm
 =========
 
 Ansible role which installs / configures nginx + php-fpm
