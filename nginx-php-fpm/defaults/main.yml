@@ -1,0 +1,9 @@
+---
+# defaults file for nginx-php-fpm_role
+
+php_version: "7.4"
+nginx_document_root: "/var/www/html/"
+nginx_index: "index.php"
+nginx_port: "80"
+fastcgi_index: "index.php"
+unix_socket: "/run/php/php{{ php_version }}-fpm.sock"
