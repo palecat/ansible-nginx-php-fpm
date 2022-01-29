@@ -6,4 +6,3 @@
   roles:
     - role: "nginx-php-fpm"
       nginx_document_root: /opt/nginx/ansible/
-      php_version: "5.6"
